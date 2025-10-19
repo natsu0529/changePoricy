@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change Your Life プライバシーポリシー</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            color: #333;
+        }
+        h1 {
+            color: #007bff;
+            border-bottom: 2px solid #007bff;
+            padding-bottom: 10px;
+            margin-bottom: 30px;
+        }
+        h2 {
+            color: #555;
+            margin-top: 30px;
+            border-left: 5px solid #ccc;
+            padding-left: 10px;
+        }
+        p {
+            margin-bottom: 15px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #f4f4f4;
+        }
+        .important {
+            background-color: #fff3cd;
+            border: 1px solid #ffeeba;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+        .contact-table {
+            width: auto;
+        }
+        .contact-table th, .contact-table td {
+            width: 50%;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Change Your Life プライバシーポリシー</h1>
+    <p>最終更新日: 2025年10月20日</p>
+
+    <p><strong>[Change Your Life]</strong> アプリケーション（以下「本アプリ」といいます）は、お客様のプライバシーを尊重し、保護することに努めます。</p>
+
+    <p>本アプリの最大の特徴は、**お客様の個人データや目標、実績データなどを外部のサーバーに送信せず、すべてお客様のデバイス（スマートフォンやタブレット）のローカルストレージにのみ保存・処理する**点です。</p>
+
+    <h2>1. 収集する情報とその利用目的</h2>
+    <p>本アプリは、以下の情報を収集しますが、**すべてお客様のデバイス内でのみ利用**し、外部に送信することはありません。</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>情報の種類</th>
+                <th>具体的な内容</th>
+                <th>収集方法</th>
+                <th>利用目的</th>
+                <th>外部送信</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>ユーザー生成データ</strong></td>
+                <td>目標（3ヶ月、1年、10年）、日々のToDo、ToDoの達成履歴、称号の進捗状況</td>
+                <td>アプリ内入力・操作</td>
+                <td>アプリの核となる機能（目標管理、進捗トラッキング、実績表示、称号付与）を提供するため。</td>
+                <td>**なし**</td>
+            </tr>
+            <tr>
+                <td>**設定情報**</td>
+                <td>ユーザー名、通知設定（ON/OFF）、最終目標変更日時</td>
+                <td>アプリ内操作</td>
+                <td>アプリの利用体験をパーソナライズし、設定したリマインダー（朝6時通知）や変更制限機能を適切に実行するため。</td>
+                <td>**なし**</td>
+            </tr>
+            <tr>
+                <td>**デバイス情報**</td>
+                <td>(必須の権限取得なし)</td>
+                <td>-</td>
+                <td>-</td>
+                <td>**なし**</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>2. 個人情報の第三者提供について</h2>
+    <p>本アプリは、お客様のデータ（個人を特定できる情報、および目標・ToDoなどのアプリ内データ）を**一切、外部の第三者に提供したり、共有したりすることはありません**。</p>
+
+    <h2>3. 広告について</h2>
+    <p>本アプリは買い切り型であるため、**広告の表示、および広告目的のユーザーデータの追跡（トラッキング）を一切行いません**。</p>
+
+    <h2>4. データ保存とセキュリティ</h2>
+    <ul>
+        <li>**データの保管場所:** お客様のデータは、すべてお客様がお使いのデバイス本体のローカルストレージ内に保存されます。外部のサーバーやクラウドサービスには保存されません。</li>
+        <li>**セキュリティ:** 保存されたデータは、ローカルデータベース（sqflite または Isar）によって安全に管理されます。</li>
+    </ul>
+
+    <h2>5. データの取り扱いに関する重要な注意事項（データ引き継ぎ）</h2>
+    <div class="important">
+        <p>前述の通り、お客様のデータはデバイスのローカルストレージにのみ保存されるため、以下の点にご注意ください。</p>
+        <ol>
+            <li><strong>機種変更・端末故障:</strong> デバイスの機種変更、アプリのアンインストール、または端末の故障・紛失が発生した場合、**原則としてデータは失われます**。</li>
+            <li><strong>OSの自動バックアップ:</strong> データ引き継ぎは、お客様が利用されているOS（iOS/iCloud、Android/Google Drive）の自動バックアップ機能に依存します。この機能によるデータの復元は、**確実性を保証するものではありません**。</li>
+            <li><strong>開発者側での復元:</strong> 開発者側ではお客様のデータを保有していないため、データの復元や引き継ぎを個別に行うことはできません。</li>
+        </ol>
+    </div>
+
+    <h2>6. プライバシーポリシーの変更</h2>
+    <p>本プライバシーポリシーの内容は、法令の改正、または本アプリの機能変更・改善に伴い、予告なく変更することがあります。重要な変更がある場合は、アプリ内での通知または本GitHub Pages上で告知します。</p>
+
+    <h2>7. お問い合わせ</h2>
+    <p>本プライバシーポリシーに関するご質問やお問い合わせは、下記までご連絡ください。</p>
+
+    <table class="contact-table">
+        <tr>
+            <th>開発者名</th>
+            <td>[あなたの氏名または開発者名]</td>
+        </tr>
+        <tr>
+            <th>メールアドレス</th>
+            <td>[サポート用のメールアドレス]</td>
+        </tr>
+        <tr>
+            <th>GitHub Pages URL</th>
+            <td>[このポリシーを掲載する予定のURL]</td>
+        </tr>
+    </table>
+
+</body>
+</html>
